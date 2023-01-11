@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slider.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <!--Radio Buttons-->
+            <input type="radio" name="radio-btn" id="radio1" class="slides-input" checked>
+            <input type="radio" name="radio-btn" id="radio2" class="slides-input">
+            <input type="radio" name="radio-btn" id="radio3" class="slides-input">
+            <!--Fim Radio Buttons-->
+
+            <!--Slide Images-->
+            <div class="slide first">
+                <img src="imgs/trabalhos/telas/desktop_cadastro-clinica.png" alt="image1" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="imgs/trabalhos/telas/desktop_clinica-login.svg" alt="image2" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="imgs/trabalhos/telas/desktop_monitor-inicial.png" alt="image3" class="slide-img">
+            </div>
+            <!--Fim Slide Images-->
+
+            <!--Navigation auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn nav1"></div>
+                <div class="auto-btn nav2"></div>
+                <div class="auto-btn nav3"></div>
+            </div>
+            <!--Fim Navigation auto-->
+
+            <!--Manual Navigation-->
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+            <!--Fim Manual Navigation-->
+        </div>
+    </div>
+    <script src="js/slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conteudo>
+    <equipe>
+        <membro>
+            <nome>Amanda Silva</nome>
+            <frase>Graduação em DSM, especialização em UI/UX. Diretora de Design de experiência, co-fundadora da AJA.</frase>
+            <habilidade>Full-Stack</habilidade>
+            <foto>amanda-silva.jpeg</foto>
+            <github>https://github.com/</github>
+            <linkedin>https://br.linkedin.com/</linkedin>
+            <instagram>https://www.instagram.com/</instagram>
+        </membro>
+        <membro>
+            <nome>Aline Lauriano</nome>
+            <frase>Graduação em administração. Graduando em Desenvolvimento de Software Multiplataforma. Diretora Executiva, co-fundadora da AJA</frase>
+            <habilidade>Full-Stack</habilidade>
+            <foto>aline-lauriano.jpeg</foto>
+            <github>https://github.com/</github>
+            <linkedin>https://br.linkedin.com/</linkedin>
+            <instagram>https://www.instagram.com/</instagram>
+        </membro>
+        <membro>
+            <nome>Adeldivo Junior</nome>
+            <frase>Graduando em Desenvolvimento de Sistema, especialização em Ciência de Dados. Diretor de desenvolvimento, co-fundador da AJA.</frase>
+            <habilidade>Back-End</habilidade>
+            <foto>adeldivo-junior.jpeg</foto>
+            <github>https://github.com/</github>
+            <linkedin>https://br.linkedin.com/</linkedin>
+            <instagram>https://www.instagram.com/</instagram>
+        </membro>
+    </equipe>
+</conteudo>

@@ -1,0 +1,221 @@
+@media screen and (max-width: 960px) {
+    .header{
+        padding: 2rem 1rem 0;
+    }
+
+    .header_sobre{
+        width: 100%;
+        padding: 20px 0.5em;
+        order: 2;
+    }
+
+    .header_fig{
+        width: 100%;
+        padding: 0 0.5em;
+        order: 1;
+    }
+
+    .sobre-nos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre-nos_desc{
+        width: 100%;
+        margin: 1rem;
+    }
+    .sobre-nos .title{
+        margin-bottom: 2rem;
+    }
+
+    .pilares{
+        width: 100%;
+        flex-wrap: wrap;
+        
+        padding: 2rem;
+    }
+    .pilares-item{
+        width: 100%;
+        margin-bottom: 2rem;
+        margin: auto auto 2rem;
+    }
+    .ods{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .ods-logo{
+        display: none;
+    }
+    .ods-sobre{
+        width: 100%;
+        padding: 4rem 2rem 2rem;
+        margin: 0;
+        
+        background-image: url("../imgs/ods-people.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tera-sobre{
+        width: 100%;
+    }
+    .tera-slide{
+        width: 100%;
+    }
+    .tera{
+        flex-wrap: wrap;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .tera_title{
+        font-size: 5em;
+    }
+    .tera_p{
+        width: 100%;
+        font-size: 1.4em;
+        margin: 20px auto 60px;
+        order: 3;
+    }
+
+    .tera_img{
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 80%;
+        padding: 0 2em;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        order: 2;
+    }
+
+        .tera_phn{
+            /*height: 120px;*/
+            width: 25%;
+        }
+
+        .tera_dsk{
+            /*height: 160px;*/
+            position: relative;
+            top: 0;
+            right: auto;
+            width: 60%;
+            margin: 0;
+            transform: rotate(15.5deg);
+        }
+
+        .tera_wtc{
+            /*height: 100px;*/
+            position: relative;
+            top: 0;
+            left: auto;
+            right: auto;
+            width: 15%;
+        }
+
+    .tera_mon{
+        justify-content: center;
+    }
+
+        .tera_mon-img{
+            width: 30%;
+        }
+
+        .tera_mon-sobre{
+            width: 60%;
+            margin-left: 20px;
+        }
+
+    .tera_mon-crd{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .trb_crd{
+        width: 100%;
+    }
+
+    .integrante{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .integrante_img{
+        width: 60%;
+    }
+    .integrantes{
+        flex-wrap: wrap;
+    }
+
+    .fale-conosco_fig{
+        display: none;
+    }
+
+    .fale-conosco_card{
+        width: 80%;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 1em;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .menu{
+        display: none;
+    }
+
+    .menu_mobile{
+        display: block;
+    }
+        #menu_mobile-icon{
+            font-size: 2em; /*32/16*/
+            color: var(--blue-gray-sr);
+            cursor: pointer;
+        }
+
+    .header_title{
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .pilares-item{
+        width: 100%;
+    }
+
+    .header_subtitle{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .tera_mon-crd article{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .vertical{
+        display: none;
+    }
+
+    .crd_item-left, .crd_item-right{
+        margin-bottom: 1em;
+    }
+    .trb_img{
+        width: 30%;
+    }
+    .trb_p{
+        width: 60%;
+        margin: 20px;
+        font-size: 1em;
+    }
+
+    .fale-conosco_card{width: 100%;}
+    .footer_center{
+        justify-content: space-around;
+    }
+    .footer_sobre{width: 100%;}
+}
